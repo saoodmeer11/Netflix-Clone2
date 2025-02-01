@@ -1,0 +1,228 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@1,300&family=Playfair+Display:wght@500&family=Raleway:wght@200&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins";  */
+      /* font-family: "Montserrat", serif; */
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(./Assets/images/bg.jpg);
+    /* background-color: aqua; */
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+
+    max-width: 72vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    height: 65px;
+}
+
+nav img {
+    /* height: 45px; */
+    color: red;
+    width: 110px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.maintext {
+    height: 100%;
+    height: calc(100% - 65px);
+    display: flex;
+    padding: 0 30px;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Poppins", serif;
+    /* font-family: "Montserrat", serif; */
+    /* font-weight: 600; */
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.maintext> :nth-child(1) {
+    /* font-family: "poppins"; */
+    /* font-family: "Montserrat", serif; */
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.maintext> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    /* font-family: "Montserrat", serif; */
+
+}
+
+
+.maintext> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 07px;
+    background-color: rgb(46, 44, 44);
+    border: 2px black;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    /* font-family: "Montserrat", serif; */
+    font-family: "Poppins"; 
+
+
+
+}
+
+.btn-red {
+    padding: 0.35px 18px;
+    /* padding:  7px 101px 8px 14px; */
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+.form input{
+    padding:  7.5px 101px 8.55px 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    font-family: "Poppins"; 
+
+}
+.imgsec1{
+    position: relative;
+}
+.imgsec1 img{
+    width: 30vw;
+    position: relative;
+    /* margin: auto; */
+    top: 15px;
+    z-index: 10;
+}
+.imgsec1 video{
+    position: absolute;
+    top: 65px;
+    right: 0;
+    max-height: 25.8vw;
+    max-width: 25.8vw;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 15px;
+    /* font-weight: bolder; */
+}
+
+.line2{
+    position: relative;
+    top: 50px;
+}
+
+.second{
+    position: relative;
+    top: 50px;
+}
+
+.line3{
+    position: relative;
+    top: 130px;
+}
+
+.third{
+    position: relative;
+    top: 140px;
+}
+
+.line4{
+    position: relative;
+    top: 165px;
+}
+
+
+.fourth{
+    position: relative;
+    top: 170px;
+}
+
+.line5{
+    position: relative;
+    top: 195px;
+}
